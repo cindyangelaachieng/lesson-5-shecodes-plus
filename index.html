@@ -29,6 +29,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
+
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
     <link href="src/styles.css" />
@@ -72,6 +73,10 @@
                       <h1 class="card-title temp">
                         <span id="temp-num"> 17</span
                         ><span id="temp-unit">&degC</span>
+                        <span class="units" id="units">
+                          <a href="" id="cel-link">&deg;C</a> |
+                          <a href="" id="fahr-link">&deg;F</a>
+                        </span>
                       </h1>
                       <p class="card-text wind">
                         Wind speed: <span id="wind">12</span>km/h
@@ -97,6 +102,38 @@
                       </p>
                     </div>
                   </div>
+                </div>
+              </div>
+              <div class="row third-row">
+                <div class="col-sm-2 future">
+                  <div class="row days">WED</div>
+                  <div class="row emojis">🌧</div>
+                  <div class="row days-temp">12&degC</div>
+                </div>
+                <div class="col-sm-2 future">
+                  <div class="row days">THUR</div>
+                  <div class="row emojis">🌧</div>
+                  <div class="row days-temp">10&degC</div>
+                </div>
+                <div class="col-sm-2 future">
+                  <div class="row days">FRI</div>
+                  <div class="row emojis">🌧</div>
+                  <div class="row days-temp">12&degC</div>
+                </div>
+                <div class="col-sm-2 future">
+                  <div class="row days">SAT</div>
+                  <div class="row emojis">🌧</div>
+                  <div class="row days-temp">13&degC</div>
+                </div>
+                <div class="col-sm-2 future">
+                  <div class="row days">SUN</div>
+                  <div class="row emojis">🌦</div>
+                  <div class="row days-temp">17&degC</div>
+                </div>
+                <div class="col-sm-2 future">
+                  <div class="row days">MON</div>
+                  <div class="row emojis">☀️</div>
+                  <div class="row days-temp">19&degC</div>
                 </div>
               </div>
             </div>

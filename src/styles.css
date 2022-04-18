@@ -1,6 +1,10 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+h1 {
+  color: red;
+  border-bottom: 0;
+}
 .container {
   display: block;
   /* width: 2000px; */
@@ -20,11 +24,18 @@ body {
   border-radius: 5px;
   margin-right: 120px;
 }
+.units {
+  font-size: 14px;
+  vertical-align: super;
+}
 .card {
   display: block;
   width: 100% auto;
   border: none;
   margin: 0 auto;
+}
+.card-body {
+  border: none;
 }
 a:link {
   text-decoration: none;
@@ -97,4 +108,5 @@ a:link {
   display: block;
   padding: 4px;
   width: 100% auto;
+  text-align: center;
 }
