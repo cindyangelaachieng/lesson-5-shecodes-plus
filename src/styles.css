@@ -1,8 +1,7 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 h1 {
-  color: red;
   border-bottom: 0;
 }
 .container {
@@ -42,6 +41,7 @@ a:link {
 }
 .card-body {
   margin: 0 auto;
+  border: none;
 }
 .form-group {
   width: 100% auto;
@@ -99,9 +99,11 @@ a:link {
   font-size: 18px;
   text-align: left;
 }
+
 .third-row {
   margin: 0 auto;
   width: 100% auto;
+  padding: 1px;
 }
 .future {
   margin: 0 auto;
