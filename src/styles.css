@@ -22,6 +22,7 @@ h1 {
   box-shadow: 0.5px 0.5px 5px 0.5px lightgrey;
   border-radius: 5px;
   margin-right: 120px;
+  margin-left: 20px;
 }
 .units {
   font-size: 14px;
@@ -71,6 +72,9 @@ a:link {
   padding-left: 0;
   padding-right: 0;
 }
+.today {
+  margin-left: 40px;
+}
 .city {
   margin-bottom: 0;
   font-weight: 400;
@@ -104,6 +108,7 @@ a:link {
   margin: 0 auto;
   width: 100% auto;
   padding: 1px;
+  margin-left: 40px;
 }
 .future {
   margin: 0 auto;
@@ -111,4 +116,7 @@ a:link {
   padding: 4px;
   width: 100% auto;
   text-align: center;
+}
+.code-source {
+  font-size: 14px;
 }
